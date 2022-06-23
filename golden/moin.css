@@ -1,0 +1,188 @@
+/*№12*/body /*Весь контент*/ {
+	font-family: Arial, sans-serif;/*№15*//*Поставить шрифт Arial или если его нет ставиться автоматически с помощю sans-serif*/
+	padding: 0;/*№13*//*Убрать отступы всего контента, так как у body изначально есть некие отступы*/
+	margin: 0;/*№14*//*Убрать отступы всего контента, так как у body изначально есть некие отступы*/
+	color: #222222;/*Изменить цвет всего шрифта*/ 
+}
+
+/**/.clearfix:after {
+	content: '';/*Всегда нужно просто вписывать*/
+	display: table;/**/
+	width: 100%;/**/
+	clear: both; /**/
+}
+
+/**/div /**/ {
+	box-sizing: border-box;/**/
+}
+
+/*№9*/header /*Первый контейнер*/ { 
+	background: url(../imeg/first-bg.jpg) no-repeat center top / cover;/*№10*/ /*Фото бэкграунда, не повторять фото, поставить по центру,поставить сверху, покрыть все пространство контейнера*/ 
+    height: 600px;/*№11*//*Высота фото*/
+    height: 100vh; /*Сделать так чтобы первый контейнер занимал всю площадь монитора*/
+}/*Отвечает за бэкграунд, относится к контейнеру header*/
+
+/**/.container /**/ {
+	width: 930px;/**/
+	/*border: 10px solid red;*/
+	margin: 0 auto;/**/
+}
+
+/**/.logo /**/ {
+    margin: 41px 0 0 0;/**/
+    float: left; /**/
+} 
+
+
+	  
+/**/nav /**/ {
+	float: right;/**/
+	margin-top: 45px;/**/
+}
+
+/**/.menu /**/ {
+	padding: 0;/**/
+	margin: 0;/**/
+	display: block;/**/
+}
+
+/**/.menu li /**/ {
+	float: left;/**/
+	display: block;/**/
+	margin-right: 41px;/**/
+}
+
+/**/.menu li a /**/ {
+	color: #fff;/**/
+	text-decoration: none;/**/
+	text-transform: uppercase;/**/
+	font-size: 14px;/**/
+}
+
+/**/.titles_first /**/ {
+	font-size: 40px;/**/
+	color: #fff;/**/
+	text-transform: uppercase;/**/
+	text-align: center;/**/
+	margin-top: 180px;/**/ 
+}
+
+/**/h1 /**/ {
+	font-size: 75px;/**/
+	color: #fff;/**/
+	text-transform: uppercase;/**/
+	text-align: center;/**/
+	margin: 15px;/**/
+}
+
+/**/.button /**/ {
+	background: #fed136;/**/
+	color: #484543;/**/
+	border-radius: 3px;/**/
+	display: block;/**/
+	width: 240px;/**/
+	padding: 20px 0;/**/
+	margin: 0 auto;/**/
+	text-decoration: none;/**/
+	text-align: center;/**/
+	text-transform: uppercase;/**/
+	font-weight: bold;/**/
+	font-size: 18px;/**/
+	margin-top: 50px;/**/
+	margin-bottom: 160px;/**/
+}
+
+/**/.title /**/ {
+    padding-top: 115px;/**/
+}
+
+/**/.title h2 /**/ {
+	font-size: 40px;/**/
+	font-weight: bold;/**/
+	text-align: center;/**/  
+    text-transform: uppercase;/**/
+    margin: 0;/**/
+}
+
+/**/.title p /**/ {
+	color: #777777;/**/
+	text-align: center;/**/
+    font-size: 16px;/**/
+    margin-top: 5px;/**/
+}
+
+/**/.services /**/ {
+    margin-top: 50px;/**/
+}
+
+/**/.services_item /**/ {
+	width: 270px;/**/
+	float: left;/**/
+	text-align: center;/**/
+}
+
+/**/.services_item h3 /**/ {
+    font-size: 18px;/**/
+    margin-bottom: 5px;/**/ 
+} 
+
+/**/.services_item p /**/ {
+	color: #777777;/**/
+	font-size: 14px;/**/
+	line-height: 1.55em;/**/
+}
+
+/**/.services_item:last-child /**/ {
+	float: right;/**/
+}
+
+/**/.services_item:nth-child(2) /**/ {
+	margin-left: 60px;/**/
+}
+
+/**/#services /**/ {
+	padding-bottom: 120px;/**/
+}  
+
+/**/#portfolio /**/ {
+	background: #f7f7f7;/**/
+	padding-bottom: 120px;/**/
+}
+
+/**/.works /**/ {
+	margin-top: 70px;/**/ 
+}
+
+/**/.works img /**/ {
+	float: left;/**/
+}
+
+/**/.works img:nth-child(2) /**/ {
+    margin-left: 29px;/**/
+}
+
+/**/.works img:last-child /**/ {
+	float: right;/**/
+}
+
+/**/.about /**/ {
+	float: right;/**/
+}
+
+/**/.add h3 /**/ {
+	float: right;/**/
+	font-size: 18px;/**/
+    margin-bottom: 5px;/**/ 
+}
+
+/**/#contact /**/ {
+	 
+}
+
+/**/.title p /**/ {
+	/**/
+	/**/
+}
+
+
+

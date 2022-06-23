@@ -1,0 +1,1 @@
+[2019-03-31 08:13:04] layer "man.ico": Unsupported extension: ico
